@@ -1,0 +1,22 @@
+# Ignore build directory
+build/
+
+# Ignore virtual env
+**/.venv/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore compiled Python files (.pyc, .pyo, .pyd)
+*.py[cod]
+
+# Whatever this is
+*.egg-info/

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Kit3CS"
+version = "1.0.0"
+description = "3CS Analysis and Execution Package"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }        # or "BSD-3-Clause", etc.
+authors = [
+  { name = "nhargy" }
+]
+
+# This tells setuptools where your package actually lives
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
